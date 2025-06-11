@@ -5,7 +5,6 @@ import (
 
 	"github.com/igorfranzoi/golibfunctions/database/infrastructure"
 	"github.com/igorfranzoi/golibfunctions/utils"
-
 	"github.com/spf13/cobra"
 )
 

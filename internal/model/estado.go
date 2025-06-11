@@ -1,7 +1,7 @@
 package model
 
 import (
-	"basecep/utils"
+	"github.com/igorfranzoi/basecep/utils"
 
 	"gorm.io/gorm"
 )

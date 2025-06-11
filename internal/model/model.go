@@ -1,8 +1,9 @@
 package model
 
 import (
-	"basecep/utils"
 	"time"
+
+	"github.com/igorfranzoi/basecep/utils"
 
 	"github.com/google/uuid"
 	"gorm.io/gorm"

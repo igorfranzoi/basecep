@@ -9,5 +9,5 @@ type Cidade struct {
 	Nome     string    `gorm:"size:200;not null"`
 	EstadoID uuid.UUID `gorm:"not null"`
 	Estado   Estado    `gorm:"foreignKey:EstadoID"`
-	//Bairros  []Bairro  `gorm:"foreignKey:CidadeID"`
+	Bairros  []Bairro  `gorm:"foreignKey:CidadeID"`
 }

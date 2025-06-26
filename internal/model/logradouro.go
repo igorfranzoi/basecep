@@ -10,5 +10,5 @@ type Logradouro struct {
 	Tipo     string    `gorm:"size:50;not null"`
 	BairroID uuid.UUID `gorm:"not null"`
 	Bairro   Bairro    `gorm:"foreignKey:BairroID"`
-	CEPs     []CEP     `gorm:"foreignKey:LogradouroID"`
+	CEPs     []CEP     `gorm:"many2many:cep_logradouros;"`
 }
